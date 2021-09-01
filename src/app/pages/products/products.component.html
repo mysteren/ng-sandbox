@@ -1,0 +1,11 @@
+<p>products works!</p>
+<div class="products">
+    <div *ngFor="let product of products" class="product">
+        <h3 class="title">{{product.name}}</h3>
+        <p>{{product.desc}}</p>
+        <p>
+            <a routerLink="/product/{{product.key}}">open</a>
+        </p>
+    </div>
+</div>
+

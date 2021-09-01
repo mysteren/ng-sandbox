@@ -1,0 +1,17 @@
+<div class="container profile">
+    
+    <div class="rowHead">
+        <h3>Name</h3>
+    </div>
+    <div class="row">
+        <div class="col1 col">
+            <span>{{profile.name}}</span>
+        </div>
+        <div class="col2 col">
+            <input type="text" [(ngModel)]="profile.name" (ngModelChange)="changeName()"/>
+            <button (click)="saveName()">save</button>
+            {{alert}}
+        </div>
+    </div>
+    
+</div>

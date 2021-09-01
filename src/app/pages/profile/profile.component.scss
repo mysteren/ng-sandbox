@@ -1,0 +1,13 @@
+.profile {
+    .rowHead {
+        margin: 15px;
+    }
+    .row {
+        display: flex;
+        .col {
+            margin: 15px;
+            width: calc(50% - 30px)
+        }
+    }
+    
+}
